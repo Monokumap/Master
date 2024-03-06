@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta charset="utf-8">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Интерактивная страничка</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script type="text/javascript" src="jquery.js"></script>
+<body>
+<header>
+	<nav>
+	<ul>
+		<li class="logos"><img src="logo.png"></li>
+		<li><a href=#>Главная</a></li>
+		<li><a href=#>Каталог</a></li>
+		<li><a href=#>Личный кабинет</a></li>
+		<li class="logos">
+		<?xml version="1.0" encoding="utf-8"?>
+          <svg data-action="open_model_basket" version="1.1" width="50%" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <image href="bag.png" x="0" y="0" width="16" height="16" />
+    <!--<path fill="#444444" d="M14 13.1v-1.1h-9.4l0.6-1.1 9.2-0.9 1.6-6h-12.3l-0.7-3h-3v1h2.2l2.1 8.4-1.3 2.6v1.5c0 0.8 0.7 1.5 1.5 1.5s1.5-0.7 1.5-1.5-0.7-1.5-1.5-1.5h7.5v1.5c0 0.8 0.7 1.5 1.5 1.5s1.5-0.7 1.5-1.5c0-0.7-0.4-1.2-1-1.4zM4 5h10.7l-1.1 4-8.4 0.9-1.2-4.9z"></path>-->
+</svg>
+        <div data-action="model_basket" class="model_basket" id="model_basket">
+          <div id="content_model_basket" class="content_model_basket">
+            <span  id="close_model_basket" class="close_model_basket">&times;</span>
+            <p id="ff">Ваш заказ</p>
+        <div class="cart_wrapper">
+        </div></li>
+	</ul>
+	</nav>
+</header>
+<h1>Каталог</h1>
+<section>
+	<figure data-id="01" class="card">
+		<img class="img_preparat" src="1.png">
+		<p class="opisanie_tovara">Пушистик</p>
+		<p class="new_price">1099₽</p>
+		<div class="items_couter_obertka">
+			<button class="but" data-action="add">+</button>
+		<label  data-counter="counter">1</label>
+		<button class="but2" data-action="minus">-</button>
+		</div>
+		<button class="but3" data-cart>В корзину</button>
+	</figure>
+	<figure data-id="02" class="card">
+		<img class="img_preparat" src="2.png">
+		<p class="opisanie_tovara">Проказник</p>
+		<p class="new_price">2339₽</p>
+			<div class="items_couter_obertka">
+			<button class="but" data-action="add">+</button>
+		<label  data-counter="counter">1</label>
+		<button class="but2" data-action="minus">-</button>
+		</div>
+		<button class="but3" data-cart>В корзину</button>
+	</figure>
+	<figure data-id="03" class="card">
+		<img class="img_preparat" src="3.png">
+		<p class="opisanie_tovara">Стесняшка</p>
+		<p class="new_price">1199₽</p>
+			<div class="items_couter_obertka">
+			<button class="but" data-action="add">+</button>
+		<label  data-counter="counter">1</label>
+		<button class="but2" data-action="minus">-</button>
+		</div>
+		<button class="but3" data-cart>В корзину</button>
+	</figure>
+	<figure data-id="04" class="card">
+		<img class="img_preparat" src="4.png">
+		<p class="opisanie_tovara">Карамелька</p>
+		<p class="new_price">1499₽</p>
+			 <div class="items_couter_obertka">
+			<button class="but" data-action="add">+</button>
+		<label  data-counter="counter">1</label>
+		<button class="but2" data-action="minus">-</button>
+		</div>
+		<button class="but3"  data-cart>В корзину</button>
+	</figure>
+	<figure data-id="05" class="card">
+		<img class="img_preparat" src="5.png">
+		<p class="opisanie_tovara">Лапка</p>
+		<p class="new_price">949₽</p>
+			<div class="items_couter_obertka">
+			<button class="but" data-action="add">+</button>
+		<label  data-counter="counter">1</label>
+		<button class="but2" data-action="minus">-</button>
+		</div>
+		<button class="but3" data-cart>В корзину</button>
+	</figure>
+	<figure data-id="06" class="card">
+		<img class="img_preparat" src="6.png">
+		<p class="opisanie_tovara">Грустинка</p>
+		<p class="new_price">899₽</p>
+			<div class="items_couter_obertka">
+			<button class="but" data-action="add">+</button>
+		<label  data-counter="counter">1</label>
+		<button class="but2" data-action="minus">-</button>
+		</div>
+		<button class="but3" data-cart>В корзину</button>
+	</figure>
+	<figure data-id="07" class="card">
+		<img class="img_preparat" src="7.png">
+		<p class="opisanie_tovara">Близняшки-улыбашки</p>
+		<p class="new_price">1499₽</p>
+			<div class="items_couter_obertka">
+			<button class="but" data-action="add">+</button>
+		<label  data-counter="counter">1</label>
+		<button class="but2" data-action="minus">-</button>
+		</div>
+		<button class="but3" data-cart>В корзину</button>
+	</figure>
+	<figure data-id="08 " class="card">
+		<img class="img_preparat" src="8.png">
+		<p class="opisanie_tovara">Миля</p>
+		<p class="new_price">649₽</p>
+			<div class="items_couter_obertka">
+			<button class="but" data-action="add">+</button>
+		<label  data-counter="counter">1</label>
+		<button class="but2" data-action="minus">-</button>
+		</div>
+		<button class="but3" data-cart>В корзину</button>
+	</figure>
+</section>
+<script type="text/javascript" src="counter.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="cart.js"></script>
+<script type="text/javascript" src="open_basket.js"></script>
+<footer></footer>
+</body>
+</html>
